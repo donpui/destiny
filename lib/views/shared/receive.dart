@@ -103,6 +103,12 @@ class ReceiveSharedState extends ChangeNotifier {
 
     if (dartIO.Platform.isAndroid) {
       defaultPathForPlatform = ANDROID_DOWNLOADS_FOLDER_PATH;
+    } else if (dartIO.Platform.isIOS) {
+      getApplicationDocumentsDirectory().then((downloadsDir) {
+        setState(() {
+          defaultPathForPlatform = downloadsDir.path;
+        });
+      });
     } else {
       getDownloadsDirectory().then((downloadsDir) {
         setState(() {
