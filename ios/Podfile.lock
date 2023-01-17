@@ -92,7 +92,7 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
-  dart_wormhole_william: a270e984f928b2f98692a275a1a01e315c666a1c
+  dart_wormhole_william: bb29fdc090296ed50973bb7044d7593ef13f26dd
   DKImagePickerController: b512c28220a2b8ac7419f21c491fc8534b7601ac
   DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
   file_picker: 817ab1d8cd2da9d2da412a417162deee3500fc95
@@ -106,6 +106,6 @@ SPEC CHECKSUMS:
   SwiftyGif: 6c3eafd0ce693cad58bb63d2b2fb9bacb8552780
   url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
 
-PODFILE CHECKSUM: ebb697cb00de69f8b4e137be7ad492233358ffad
+PODFILE CHECKSUM: e653542168cd813e8b244f3004e8a7d4ad304dfc
 
 COCOAPODS: 1.11.3
