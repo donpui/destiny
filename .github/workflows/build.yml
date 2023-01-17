@@ -234,7 +234,7 @@ jobs:
         run: "flutter format --set-exit-if-changed lib test"
 
       - name: "Build ios app (only for test)"
-        run: "flutter build ios lib/main_la.dart --no-codesign --debug --dart-define version=${{ env.DESTINY_VERSION }} --build-name ${{ env.DESTINY_VERSION }}"
+        run: "flutter build ios lib/main_la.dart --simulator --no-codesign --debug --dart-define version=${{ env.DESTINY_VERSION }} --build-name ${{ env.DESTINY_VERSION }}"
 
   windows:
     runs-on: windows-latest
